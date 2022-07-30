@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
 }
 body {
   font-family: "inter", serif;
@@ -49,4 +51,103 @@ body {
 }
 .nome_perfil {
   color: #e5e5e5;
+}
+.menu-lateral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  position: absolute;
+  width: 189px;
+  height: 146px;
+  left: 32px;
+  top: 128px;
+}
+.menu-lateral h3 {
+  position: absolute;
+  width: 51px;
+  height: 18px;
+  left: 15px;
+  top: -15px;
+
+  color: #ffffff;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 10px;
+}
+.menu-lateral-editor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  margin: 5px;
+  gap: 16px;
+  width: 189px;
+  height: 48px;
+  left: 32px;
+  top: 162px;
+}
+.icone-editor {
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  background: #5081fb;
+  border-radius: 16px;
+}
+.menu-lateral-comunidade {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 16px;
+  width: 189px;
+  height: 48px;
+  left: 32px;
+  top: 226px;
+}
+.icone-menu {
+  text-align: center;
+  width: 48px;
+  height: 48px;
+  background: rgba(80, 129, 251, 0.16);
+  border-radius: 16px;
+  opacity: 0.48;
+}
+.menu-lateral img {
+  margin: 30%;
+}
+.texto-editor .texto-comunidade {
+  list-style: none;
+  text-decoration: none;
+  color: #ffffff;
+}
+.texto-editor {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Neutral/$white */
+
+  color: #ffffff;
+}
+.texto-comunidade {
+  
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Neutral/$white */
+
+  color: #ffffff;
+
+  opacity: 0.56;
 }
